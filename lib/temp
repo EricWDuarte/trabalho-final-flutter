@@ -1,0 +1,5 @@
+                                child: Text(
+                                  pontos.valor.toString(),
+                                  style: TextStyle(
+                                      color: Cores.verde, fontSize: 40),
+                                )
