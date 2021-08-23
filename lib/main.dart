@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trabalho_final/cores.dart';
+import 'package:trabalho_final/login.dart';
 import 'package:trabalho_final/mainMenu.dart';
 import 'jogos.dart';
 
@@ -19,7 +20,7 @@ void main() {
           checkColor:
               MaterialStateProperty.resolveWith((states) => Cores.roxo)),
     ),
-    home: MainRoute(),
+    home: Logindart(),
   ));
 }
 
